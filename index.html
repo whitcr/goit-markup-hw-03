@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="WEBstudio site" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,33 +22,43 @@
     <title>WEBstudio</title>
   </head>
   <body>
-    <header class="inline-elements">
-      <nav>
-        <a href="./index.html" class="logo link"
-          >WEB<span class="studio-logo">Studio</span>
-        </a>
-        <ul class="list">
-          <li><a href="./index.html" class="medium-text link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="medium-text link">Portfolio</a>
-          </li>
-          <li><a href="" class="medium-text link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="adress">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="adress-text link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="adress-text link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="header-elements container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo link"
+            >WEB<span class="studio-logo">Studio</span>
+          </a>
+          <ul class="list menu">
+            <li>
+              <a href="./index.html" class="medium-text link menu-link"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html" class="medium-text link menu-link"
+                >Portfolio</a
+              >
+            </li>
+            <li><a href="" class="medium-text link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="adress">
+          <ul class="list menu">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="adress-text link menu-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="adress-text link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="main-screen">
