@@ -35,6 +35,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-background);
+  max-width: 496px;
 }
 
 .h-two-title {
@@ -44,6 +45,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: var(--dark);
+  margin-bottom: 72px;
 }
 
 .h-three-title {
@@ -53,6 +55,8 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--dark);
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .p-text {
@@ -60,6 +64,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  text-align: center;
 }
 
 .small-text {
@@ -86,6 +91,11 @@ a {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -190,27 +200,72 @@ address {
 /* MAIN-SCREEN */
 
 .main-screen {
+  padding: 188px 0;
   color: var(--white-background);
   background-color: var(--dark);
 }
 
 /* BLOCK-2 */
 
+.block-second {
+  padding: 120px 0;
+}
+
+.about-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.element-list {
+  width: calc((100% - 72px) / 4);
+}
 /* BLOCK-3 */
+
+.block-third {
+  padding-bottom: 120px;
+}
+
+.img-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.img-element {
+  width: calc((100% - 48px) / 3);
+}
 
 /* BLOCK-4 */
 
 .block-fourth {
   background-color: var(--light);
+  padding: 120px 0;
 }
 
 .list-el {
   background-color: var(--white-background);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.wrapper {
+  padding: 32px 0;
 }
 
 /* filter block  */
 
 /* portfolio-content */
+
+.portfolio-content {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portfolio-filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 
 .button-filter {
   font-family: "Roboto", sans-serif;
@@ -222,22 +277,51 @@ address {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
 }
 
 .button-filter:focus,
 .button-filter:hover {
   color: var(--white-background);
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-el {
+  width: calc((100% - 48px) / 3);
+  overflow: hidden;
+}
+
+.wrapper-portfolio-el {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* FOOTER */
 
 .footer {
   background-color: var(--dark);
   color: var(--white-background);
+  padding: 100px 0;
 }
 
 .footer-text {
   line-height: 1.5;
   color: var(--light);
   letter-spacing: 0.02em;
+  max-width: 264px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
