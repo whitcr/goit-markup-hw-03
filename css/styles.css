@@ -205,6 +205,11 @@ address {
   background-color: var(--dark);
 }
 
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* BLOCK-2 */
 
 .block-second {
