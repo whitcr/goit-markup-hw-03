@@ -214,10 +214,12 @@ address {
 .about-menu {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .element-list {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 /* BLOCK-3 */
 
@@ -228,6 +230,8 @@ address {
 .img-menu {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .img-element {
@@ -265,6 +269,7 @@ address {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding-left: 0;
 }
 
 .button-filter {
@@ -294,6 +299,8 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .portfolio-el {
