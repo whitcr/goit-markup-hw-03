@@ -29,6 +29,13 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .h-one-title {
   font-size: 56px;
   line-height: 1.07;
@@ -64,6 +71,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+}
+
+.text-centered {
   text-align: center;
 }
 
@@ -105,6 +115,7 @@ a {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .link:hover,
@@ -181,6 +192,8 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .menu-link {
